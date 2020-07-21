@@ -2,94 +2,115 @@
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
-    <title>Седона</title>
+  <title>Седона</title>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-	<header>
-		<nav>
-			<a href="">
-				<img src="" width="" height="" alt="Добро пожаловать в Седону">
-			</a>
-			<ul>
-			   <li><a href="info.html">Информация</a></li>
-               <li><a href="foto.html">Фото и видео</a></li>
-               <li><a href="logo.html"><img src="" width="" height="" alt="Логотип"></a></li>
-               <li><a href="map.html">Карта штата</a></li>
-  			   <li><a href="hotel.html">Гостиницы</a></li>
-  			</ul>
-		</nav>
-	</header>
+ <header class="main-header">
+	 <nav class="main-navigation">
+    <a class="main-header-logo">
+		<img src="" width="" height="" alt="Добро пожаловать в Седону">
+		</a>
+		<ul class="site-navigation">
+		<li><a href="info.html">Информация</a></li>
+    <li><a href="foto.html">Фото и видео</a></li>
+    <li><a href="logo.html"><img src="" width="" height="" alt="Логотип"></a></li>
+    <li><a href="map.html">Карта штата</a></li>
+  	<li><a href="hotel.html">Гостиницы</a></li>
+  	</ul>
+	</nav>
+ </header>
 
-	<main>
-		<section>
+	<main class="container">
+	 <section class="description">
 		<h2>Седона - небольшой городок в Аризоне, <br>заслуживающий большего!</h2>
-  <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-</secion>
+    <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+   </secion>
 
-<section class="reason-1">
-    <h2>Настоящий городок</h2>
-  <p>-№1-</p>
-  <p>Седона-не аттракцион для туристов,<br>там течёт своя жизнь</p>
-    <img src="img/index_layer_1.jpg"  width="800" height="256" alt="Пейзаж">
-</section>
+   <div class="index_columns1">
+    <section class="reason_1">
+     <h2>Настоящий городок</h2>
+     <p>-№1-</p>
+     <p>Седона-не аттракцион для туристов,<br>там течёт своя жизнь</p>
+    </section>
 
-<section class="symbols">
- 	<h2>Рекомендации</h2>
-    <ul class="symbols-list">
-      <li class="symbol-item"><img src="img/house.svg" width="75" height="72" alt="Дом">
-    <h2>Жильё</h2>
-        <p>Рекомендуем пожить в настоящем<br>мотеле,всё как в кино!</p></li>  
-     <li class="symbol-item"><img src="img/burger.svg" width="75" height="70" alt="Бургер">
-    <h2>Еда</h2>
-       <p>Всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p></li>
-     <li class="symbol-item"><img src="img/gift.svg" width="64" height="76" alt="Подарок">
-    <h2>Сувениры</h2>
-       <p>Не только китайского,но и местного<br>производства!</p></li>
+    <section class="landscape_1"> 
+     <a href="#">
+     <img src="img/index_layer_1.jpg"  width="800" height="256" alt="Пейзаж">
+     </a>
+    </section>
+    </div>
+
+   <section class="reference">
+    <ul class="reference-list">
+     <li class="reference-item"><img src="img/house.svg" width="75" height="72" alt="Дом">
+      <h2>Жильё</h2>
+      <p>Рекомендуем пожить в настоящем<br>мотеле,всё как в кино!</p>
+     </li>  
+     <li class="reference-item"><img src="img/burger.svg" width="75" height="70" alt="Бургер">
+      <h2>Еда</h2>
+      <p>Всегда заказывайте фирменный бургер,<br>вы не разочаруетесь!</p>
+     </li>
+     <li class="reference-item"><img src="img/gift.svg" width="64" height="76" alt="Подарок">
+      <h2>Сувениры</h2>
+      <p>Не только китайского,но и местного<br>производства!</p>
+     </li>
     </ul>
   </section>
 
-  <section class="reason-2">
+ <div class="index_columns2">
+  <section class="landscape_2">
+    <a href="#">
     <img src="img/index_layer_2.jpg" width="800" height="256" alt="Мост">
+    </a>
+  </section>
+
+  <section class="reason_2">
     <h2>Там есть<br>мост дьявола</h2>
     <p>-№2-</p>
     <p>Да,по нему можно пройти! если конечно<br>вы осмелитесь</p>
   </section>
+ </div>
 
-  <section class="reasons-345">
+  <section class="reasons">
     <ul class="reasons-list">
     <li class="reason-item">
-      <h2>Небольшая<br>площадь</h2>
-    <p>-№3-</p>
-      <p>Все достопримечательности<br>находятся очень близко</p></li>
+     <h2>Небольшая<br>площадь</h2>
+     <p>-№3-</p>
+     <p>Все достопримечательности<br>находятся очень близко</p>
+    </li>
     <li class="reason-item"><h2>Красивая<br>дорога</h2>
-    <p>-№4-</p>
-      <p>Ехать в седону из Лас-Вегаса совсем<br>не скучно!</p></li>
+     <p>-№4-</p>
+     <p>Ехать в седону из Лас-Вегаса совсем<br>не скучно!</p>
+    </li>
     <li class="reason-item"><h2>Мало<br>туристов</h2>
-    <p>-№5-</p>
-      <p>Большинство едет в Гранд Каньон<br>и толпится там</p></li>
+     <p>-№5-</p>
+     <p>Большинство едет в Гранд Каньон<br>и толпится там</p>
+    </li>
     </ul>
   </section>
+</main>
 
-	</main>
-
-	<footer>
-		 <h2>
-   <a href="https://www.instagram.com" title="INSTAGRAM">#visitsedona</a>
-   <br><a href="#" title="tel:+74956660266">+7(495)666-02-66</a>
-   </h2>
+ <footer class="main-footer">
+  <h2 class="footer-contacts">
+  <a href="https://www.instagram.com" title="INSTAGRAM">#visitsedona</a><br>
+  <a href="#" title="tel:+74956660266">+7(495)666-02-66</a>
+  </h2>
 		 
-		 <div class="footer-social">  
-    <ul class="social"> 
-     <li><a class="social-button" href="https://twitter.com" title="TWITTER"><img src="img/twitter.svg" width="17" height="15" alt="Твиттер"></a></li>
-     <li><a class="social-button" href="https://www.facebook.com" title="FACEBOOK"><img src="img/facebook.svg" width="12" height="22" alt="Фейсбук"></a></li>
-     <li><a class="social-button" href="https://www.youtube.com" title="YOUTUBE"><img src="img/youtube.svg" width="20" height="16" alt="Ютуб"></a></li>
+	<div class="footer-social">  
+   <ul> 
+    <li><a class="social-button" href="https://twitter.com" title="TWITTER"><img src="img/twitter.svg" width="17" height="15" alt="Твиттер"></a></li>
+    <li><a class="social-button" href="https://www.facebook.com" title="FACEBOOK"><img src="img/facebook.svg" width="12" height="22" alt="Фейсбук"></a></li>
+    <li><a class="social-button" href="https://www.youtube.com" title="YOUTUBE"><img src="img/youtube.svg" width="20" height="16" alt="Ютуб"></a></li>
    </ul> 
-     </div>
+  </div>
 
-		<p class="footer-copyright">
-<a href="https://htmlacademy.ru">website by<img src="img/logo_academy.png" width="114" height="40" alt="html academy"></a>
-     </p>
+	<p class="footer-copyright">
+   <a href="https://htmlacademy.ru">website by<img src="img/logo_academy.png" width="114" height="40" alt="html academy"></a>
+  </p>
 	</footer>
-	
-</body>
+ </body>
 </html>
