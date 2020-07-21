@@ -11,9 +11,6 @@
 <body>
  <header class="main-header">
 	 <nav class="main-navigation">
-    <a class="main-header-logo">
-		<img src="" width="" height="" alt="Добро пожаловать в Седону">
-		</a>
 		<ul class="site-navigation">
 		<li><a href="info.html">Информация</a></li>
     <li><a href="foto.html">Фото и видео</a></li>
@@ -25,10 +22,12 @@
  </header>
 
 	<main class="container">
+   <div class="background-sedona>"></div>
 	 <section class="description">
 		<h2>Седона - небольшой городок в Аризоне, <br>заслуживающий большего!</h2>
     <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-   </secion>
+   </section>
+   
 
    <div class="index_columns1">
     <section class="reason_1">
@@ -112,5 +111,40 @@
    <a href="https://htmlacademy.ru">website by<img src="img/logo_academy.png" width="114" height="40" alt="html academy"></a>
   </p>
 	</footer>
+
+  <section class="modal modal-search">
+  <section class="interest">
+    <h2>Заинтересовались?</h2>
+    <p class="gray">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие преложения гостинц в Седоне</p>
+  </section>
+   <h3 class="white">Поиск гостиницы в седоне</h3>
+     <form class="search-hotels" method="post" action="">
+   <div class="check-in">
+     <label for="arrival">Дата заезда:</label>
+     <input type="date" name="arrival" id="arrival" value="24 апреля 2017">
+   </div>
+   <div class="check-out">
+     <label for="departure">Дата выезда:</label>
+     <input type="date" name="departure" id="departure" value="4 июля 2017">
+   </div>
+   <div class="amount">
+     <label for="amount_adults">Взрослые:</label>
+     <input type="number" min="1" max="100" step="1" id="amount_adults" name="amount_adults" value="2">
+     <label for="amount_children">Дети:</label>
+     <input type="number" min="1" max="100" step="1" id="amount_children" name="amount_children">
+   </div>
+   <div class="buttons">
+     <button type="submit">Найти </button>
+   </div>
+   </section>
+  <section class="modal modal-map">
+    <img src="img/index_map.png" width="1200"
+height="594" alt="Карта">
+  </section>
+ </form>
+  </body>
+</html>
  </body>
 </html>
+
+
